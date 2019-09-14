@@ -46,14 +46,25 @@ cp poochyena7 larvitar4/wynautpoochyena
 ln -s raticate3 Copy_20
 cat larvitar4/lotad raticate3/cofagrigus > starly3_16
 ln poochyena7 larvitar4/lotadpoochyena
+chmod u+w barboach2 barboach2/kricketot # give temporary permission
 cp -r larvitar4 barboach2/kricketot/larvitar4 # permission denied
 cp starly3 raticate3/electabuzz/starly3
 ln -s poochyena7 barboach2/pichupoochyena # permission denied
+chmod u-w barboach2 barboach2/kricketot # take temporary permission
 #4th point
-wc -m raticate3/* | sort -nr 2>/tmp/errors.txt #1
-ls -al * | sort -nrk 5 | grep "3$" #2
-cat poochyena7 | grep -i "y$" 2>&1 #3
-ls -alr * | grep "co" | sort -mr | tail -4 #4
-ls -r * | grep "o$" | sort -ur | cat -n 2>&1 #5
-ls -alr * | grep "^g\*" | sort -m 2>&1 #6
+wc -m raticate3/* 2>/tmp/errors.txt | sort -nr  #1
+ls -al * | sort -nrk 5 | grep '^-.*3$'  #2
+cat poochyena7 2>&1 | grep -i 'y$' #3
+ls -alr * | grep 'co' | sort -mr | tail -4 #4
+echo -e "Tail Whip\nHead punch\nUltimate Kick\n" > gopniko
+
+
 #5th point
+rm poochyena7
+rm -f larvitar4/lotad
+rm Copy_*
+rm larvitar4/lotadpoochye*
+rm -rf larvitar4
+chmod u+w raticate3
+rmdir raticate3/pineco
+chmod u-w raticate3
