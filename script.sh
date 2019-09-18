@@ -7,7 +7,7 @@ echo -e 'Способности  Tackle Growl Tail Whip Ember\nFlame Wheel Stomp
 echo -e 'Живёт  Cave\nDesert' > gible8
 echo -e 'Развитые способности  Telepathy' > larvitar4/wynaut
 echo -e 'weight=5.7\nheight=20.0 atk=3 def=3' > larvitar4/lotad
-echo -e 'weight=30/0 height=20.0 atk=6\ndef=4' > poochyena7
+echo -e 'weight=30.0 height=20.0 atk=6\ndef=4' > poochyena7
 echo -e 'weight=168.7 height=67.0 atk=5\ndef=15' > raticate3/cofagrigus
 echo -e 'Способности  Growl Tackle Quick Attack Wing Attack\nDouble Team Endeavor Whirlwind Aerial Ace Take Down Agility Brave Bird\nFinal Gambit' > starly3
 #2nd point
@@ -53,18 +53,18 @@ ln -s poochyena7 barboach2/pichupoochyena # permission denied
 chmod u-w barboach2 barboach2/kricketot # take temporary permission
 #4th point
 wc -m raticate3/* 2>/tmp/errors.txt | sort -nr  #1
-ls -al * | sort -nrk 5 | grep '^-.*3$'  #2
+ls -alR * | sort -nrk 5 | grep '^-.*3$'  #2
 cat poochyena7 2>&1 | grep -i 'y$' #3
-ls -alr * | grep 'co' | sort -mr | tail -4 #4
-echo -e "Tail Whip\nHead punch\nUltimate Kick\n" > gopniko
-
-
+ls -alRrt * | grep "[^/][a-z]*co[a-z]*$" | tail -4 #4
+echo -e "Tail Whip\nHead punch\nUltimate Kick" > gopniko
+cat -n */*o *o 2>err.txt | sort -rk 2; cat err.txt; rm err.txt #5
+ls -alRt * 2>&1 | grep 'g.*[^:]$' #6   
 #5th point
 rm poochyena7
 rm -f larvitar4/lotad
 rm Copy_*
 rm larvitar4/lotadpoochye*
 rm -rf larvitar4
-chmod u+w raticate3
+chmod u+w raticate3 #edit a permission error
 rmdir raticate3/pineco
 chmod u-w raticate3

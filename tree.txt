@@ -1,0 +1,68 @@
+.:
+итого 24
+dr-x-w-r-- 3 dhs dhs 4096 сен 19 01:16 barboach2
+lrwxrwxrwx 1 dhs dhs    9 сен 19 01:16 Copy_20 -> raticate3
+-r-------- 1 dhs dhs   24 сен 19 01:16 gible8
+drwx-wxrwx 3 dhs dhs 4096 сен 19 01:16 larvitar4
+-rw--w-r-- 2 dhs dhs    0 сен 19 01:17 poochyena7
+dr-x-wxrwx 7 dhs dhs 4096 сен 19 01:16 raticate3
+-r--r----- 1 dhs dhs  146 сен 19 01:16 starly3
+-rw-r--r-- 1 dhs dhs   73 сен 19 01:16 starly3_16
+
+./barboach2:
+итого 12
+dr-xrwxrwx 3 dhs dhs 4096 сен 19 01:16 kricketot
+-r-------- 1 dhs dhs   88 сен 19 01:16 pichu
+lrwxrwxrwx 1 dhs dhs   10 сен 19 01:16 pichupoochyena -> poochyena7
+----r--r-- 1 dhs dhs  150 сен 19 01:16 ponyta
+
+./barboach2/kricketot:
+итого 4
+drwx--xr-x 3 dhs dhs 4096 сен 19 01:16 larvitar4
+
+./barboach2/kricketot/larvitar4:
+итого 20
+-r-----r-- 1 dhs dhs   35 сен 19 01:16 lotad
+-rw----r-- 1 dhs dhs   36 сен 19 01:16 lotadpoochyena
+dr-xr-x--x 2 dhs dhs 4096 сен 19 01:16 wooper
+-r--r--r-- 1 dhs dhs   51 сен 19 01:16 wynaut
+-rw----r-- 1 dhs dhs   36 сен 19 01:16 wynautpoochyena
+
+./barboach2/kricketot/larvitar4/wooper:
+итого 0
+
+./larvitar4:
+итого 16
+-r-----r-- 1 dhs dhs   35 сен 19 01:16 lotad
+-rw--w-r-- 2 dhs dhs    0 сен 19 01:17 lotadpoochyena
+dr-xrwx-wx 2 dhs dhs 4096 сен 19 01:16 wooper
+-r--r--r-- 1 dhs dhs   51 сен 19 01:16 wynaut
+-rw----r-- 1 dhs dhs   36 сен 19 01:16 wynautpoochyena
+
+./larvitar4/wooper:
+итого 0
+
+./raticate3:
+итого 24
+-r-----r-- 1 dhs dhs   38 сен 19 01:16 cofagrigus
+drwxrwxrwx 2 dhs dhs 4096 сен 19 01:16 dodrio
+drwxr-xr-x 2 dhs dhs 4096 сен 19 01:16 electabuzz
+dr-x-w-r-- 2 dhs dhs 4096 сен 19 01:16 garbodor
+drwxrwxrwx 2 dhs dhs 4096 сен 19 01:16 pineco
+drwxr-x-w- 2 dhs dhs 4096 сен 19 01:16 poliwrath
+
+./raticate3/dodrio:
+итого 0
+
+./raticate3/electabuzz:
+итого 4
+-r--r----- 1 dhs dhs 146 сен 19 01:16 starly3
+
+./raticate3/garbodor:
+итого 0
+
+./raticate3/pineco:
+итого 0
+
+./raticate3/poliwrath:
+итого 0
