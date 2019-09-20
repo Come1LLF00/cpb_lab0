@@ -58,7 +58,7 @@ cat poochyena7 2>&1 | grep -i 'y$' #3
 ls -alRrt * | grep "[^/][a-z]*co[a-z]*$" | tail -4 #4
 #echo -e "Tail Whip\nHead punch\nUltimate Kick" > gopniko
 cat -n */*o *o 2>err.txt | sort -rk 2; cat err.txt; rm err.txt #5
-ls -alRt * 2>&1 | grep 'g.*[^:]$' #6   
+ls -alRt * 2>&1 | grep ' g.*[^:]$' #6   
 #5th point
 rm poochyena7
 rm -f larvitar4/lotad
