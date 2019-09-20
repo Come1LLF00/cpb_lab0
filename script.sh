@@ -1,5 +1,5 @@
 #1st point
-mkdir lab0 && cd $_
+mkdir lab0 && cd lab0
 mkdir -p barboach2/kricketot larvitar4/wooper raticate3/pineco raticate3/garbodor raticate3/poliwrath raticate3/dodrio raticate3/electabuzz
 touch barboach2/pichu barboach2/ponyta gible8 larvitar4/wynaut larvitar4/lotad poochyena7 raticate3/cofagrigus starly3
 echo -e 'Способности  Charm Thundershock Tail Whip Thunder Wave Sweet\nKiss Nasty Plot' > barboach2/pichu
@@ -56,7 +56,7 @@ wc -m raticate3/* 2>/tmp/errors.txt | sort -nr  #1
 ls -alR * | sort -nrk 5 | grep '^-.*3$'  #2
 cat poochyena7 2>&1 | grep -i 'y$' #3
 ls -alRrt * | grep "[^/][a-z]*co[a-z]*$" | tail -4 #4
-echo -e "Tail Whip\nHead punch\nUltimate Kick" > gopniko
+#echo -e "Tail Whip\nHead punch\nUltimate Kick" > gopniko
 cat -n */*o *o 2>err.txt | sort -rk 2; cat err.txt; rm err.txt #5
 ls -alRt * 2>&1 | grep 'g.*[^:]$' #6   
 #5th point

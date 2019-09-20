@@ -1,2 +1,2 @@
-chmod -R 777 *
+chmod -R 777 ./*
 rm -r lab0
