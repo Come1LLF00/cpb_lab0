@@ -3,7 +3,7 @@ mkdir lab0 && cd lab0
 mkdir -p barboach2/kricketot larvitar4/wooper raticate3/pineco raticate3/garbodor raticate3/poliwrath raticate3/dodrio raticate3/electabuzz
 echo 'Способности  Charm Thundershock Tail Whip Thunder Wave Sweet\nKiss Nasty Plot' > barboach2/pichu
 echo -e 'Способности  Tackle Growl Tail Whip Ember\nFlame Wheel Stomp Flame Charge Fire Spin Take Down Inferno Agility\nFire Blast Bounce Flare Blitz' > barboach2/ponyta
-echo -e 'Живёт Cave\nDesert' > gible8
+echo -e 'Живёт  Cave\nDesert' > gible8
 echo 'Развитые способности  Telepathy' > larvitar4/wynaut
 echo -e 'weight=5.7\nheight=20.0 atk=3 def=3' > larvitar4/lotad
 echo -e 'weight=30.0 height=20.0 atk=6\ndef=4' > poochyena7
@@ -49,20 +49,10 @@ cp -r larvitar4 barboach2/kricketot/larvitar4 # permission denied
 cp starly3 raticate3/electabuzz/starly3
 ln -s poochyena7 barboach2/pichupoochyena # permission denied
 chmod u-w barboach2 barboach2/kricketot # take temporary permission
-#4th point
-wc -m raticate3/* 2>/tmp/errors.txt | sort -nr  #1
-ls -lR * | sort -nrk 5 | grep '^-.*3$'  #2
-cat poochyena7 2>&1 | grep -i 'y$' #3
-ls -lrt $(grep -rlw 'co' *) | tail -n 4 #4
-#echo -e "Tail Whip\nHead punch\nUltimate Kick" > gopniko
-cat -n */*o *o 2>err.txt | sort -rk 2; cat err.txt; rm err.txt #5
-ls -lRt g* 2>&1 #| grep ' g.*[^:]$' #6   
-#5th point
-rm poochyena7
-rm -f larvitar4/lotad
-rm Copy_*
-rm larvitar4/lotadpoochye*
-rm -rf larvitar4
-chmod u+w raticate3 #edit a permission error
-rmdir raticate3/pineco
-chmod u-w raticate3
+chmod u+r raticate3/electabuzz
+cd ..
+ls -lR lab0/*
+chmod u-r lab0/raticate3/electabuzz
+#remove all
+chmod -R u=rwx lab0/*
+rm -rf lab0
